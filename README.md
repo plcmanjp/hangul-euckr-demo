@@ -8,7 +8,7 @@ Python 3.10 이상을 사용합니다. 외부 패키지는 필요하지 않습�
 로컬 검증 환경은 Windows, CPython 3.13.15입니다.
 
 ```sh
-python develop.py
+python hangul_euckr.py
 ```
 
 ```text
@@ -20,7 +20,7 @@ B0 A3 C7 D1 B1 DB
 ## 함수 사용
 
 ```python
-from develop import compose_hangul, encode_euc_kr
+from hangul_euckr import compose_hangul, encode_euc_kr
 
 print(compose_hangul('ㄱ', 'ㅏ'))        # 가
 print(compose_hangul('ㄱ', 'ㅏ', 'ㄴ'))  # 간
